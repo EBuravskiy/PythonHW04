@@ -1,0 +1,7 @@
+print ("Enter the type of your pet:")
+type_pet = input()
+print("Enter your pet's name:")
+name_pet = input()
+print("Enter your pet's age:")
+age = int(input())
+print("Type pet:", type_pet, "Name pet:", name_pet, " Age pet:", age, "years")
