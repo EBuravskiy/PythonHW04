@@ -1,7 +1,13 @@
-print ("Enter the type of your pet:")
-type_pet = input()
-print("Enter your pet's name:")
-name_pet = input()
-print("Enter your pet's age:")
-age = int(input())
-print("Type pet:", type_pet, "Name pet:", name_pet, " Age pet:", age, "years")
+print("Enter the sides of the rectangle:")
+print("Side A:")
+a = float(input())
+print("Side B:")
+b = float(input())
+area = a*b
+perimeter = 2*(a+b)
+if area%1 == 0: 
+    area = int(area)
+if perimeter%1 == 0:
+    perimeter = int(perimeter)
+print("The area of ​​the rectangle is", area)
+print("The perimeter of the rectangle is", perimeter)
